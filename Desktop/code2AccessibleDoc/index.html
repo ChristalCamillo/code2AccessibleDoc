@@ -7,7 +7,32 @@
 		<title>Code 2 Accesible Doc</title>
 	</head>
 	<body>
-		<div id="app"></div>
+		<main>
+			<div class="loading">
+				<h1>Loading...</h1>
+			</div>
+
+			<div class="results">
+				<header>
+					<button id="button-md">Download as Markdown</button>
+					<button id="button-pdf">Download as PDF</button>
+				</header>
+				<article></article>
+			</div>
+
+			<div class="main-input">
+				<div>
+					<h1>Code 2 Doc</h1>
+					<h2>Document your repository</h2>
+				</div>
+				<label>
+					<p>GitHub Repository URL:</p>
+					<input type="text" />
+				</label>
+				<button id="button-submit" disabled="">Create</button>
+			</div>
+		</main>
+
 		<script type="module" src="/src/main.ts"></script>
 	</body>
 </html>
