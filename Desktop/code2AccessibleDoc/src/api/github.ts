@@ -36,8 +36,7 @@ async function fetchDataFromRepo(normalRepoUrl: string) {
 }
 
 function turnNormalRepoIntoApiRepo(normalRepoUrl: string) {
-	// eslint-disable-next-line no-useless-escape
-	const re = new RegExp(/https\:\/\/github.com\/(.+?)\/(.+)/);
+	const re = new RegExp(/https:\/\/github.com\/(.+?)\/(.+)/);
 	const matches = normalRepoUrl.match(re);
 	const username = matches?.[1]?.split?.('/')?.[0];
 	const repo = matches?.[2]?.split?.('/')?.[0];
