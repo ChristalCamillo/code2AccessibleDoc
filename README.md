@@ -11,7 +11,7 @@ A simple app that turns GitHub repositories' URLs into Markdown documentation ta
 
 ## Running
 
-First you must grab a GitHub API Key from your account as well as a Groq AI key (wich you get by registering free) and add them both to a file called `.env` ar the root folder.
+First you must grab a GitHub API Key from your account as well as a Groq AI key (wich you get by registering free) and add them both to a file called `.env` ar the root folder. The archive .end.example is just a template, you have to create a .env with your personal keys.
 
 An example of such is given at `.env.example`.
 
